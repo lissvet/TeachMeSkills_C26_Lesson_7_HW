@@ -11,6 +11,6 @@ public class Accountant implements IPosition {
 
     public void showPositionName(){
         System.out.println(positionName);
-    };
+    }
 
 }
