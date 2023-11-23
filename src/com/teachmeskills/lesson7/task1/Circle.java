@@ -3,11 +3,11 @@ package com.teachmeskills.lesson7.task1;
 public class Circle extends Figure {
 
     double radius;
-    String name;
     public Circle(double radius) {
         this.radius = radius;
         area = calculateArea();
         perimeter = calculatePerimeter();
+        name = "Circle";
     }
 
     public double calculateArea(){
