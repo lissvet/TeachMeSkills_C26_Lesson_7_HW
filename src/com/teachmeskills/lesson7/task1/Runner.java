@@ -23,7 +23,7 @@ public class Runner {
         for(Figure counter : figure){
             System.out.println("figure name: " + counter.name + ". figure area: " + counter.area + " figure perimeter: " + counter.perimeter);
         }
-
+        System.out.println("Sum of perimeters of all given figures: " + (figure[0].perimeter + figure[1].perimeter + figure[2].perimeter + figure[3].perimeter + figure[4].perimeter));
     }
 
 }
