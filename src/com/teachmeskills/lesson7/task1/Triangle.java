@@ -3,8 +3,8 @@ package com.teachmeskills.lesson7.task1;
 public class Triangle extends Figure {
 
     public double side1;
-    double side2;
-    double side3;
+    public double side2;
+    public double side3;
 
     public Triangle(double side1, double side2, double side3) {
         this.side1 = side1;

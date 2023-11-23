@@ -2,7 +2,7 @@ package com.teachmeskills.lesson7.task1;
 
 public class Circle extends Figure {
 
-    double radius;
+    public double radius;
     public Circle(double radius) {
         this.radius = radius;
         area = calculateArea();

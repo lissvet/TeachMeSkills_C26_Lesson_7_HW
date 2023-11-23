@@ -2,8 +2,8 @@ package com.teachmeskills.lesson7.task1;
 
 public class Rectangle extends Figure {
 
-    double height;
-    double base;
+    public double height;
+    public double base;
     public Rectangle(double height, double base) {
         this.height = height;
         this.base = base;
